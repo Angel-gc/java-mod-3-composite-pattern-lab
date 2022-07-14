@@ -8,9 +8,9 @@ public class HotelManager {
         List<HotelRoom> hotelRooms = new ArrayList<HotelRoom>();
 
         // create 3 hotel floors
-        HotelFloor newFloor0 = new HotelFloor();
-        HotelFloor newFloor1 = new HotelFloor();
-        HotelFloor newFloor2 =  new HotelFloor();
+        HotelFloor newFloor0 = new HotelFloor(1);
+        HotelFloor newFloor1 = new HotelFloor(2);
+        HotelFloor newFloor2 =  new HotelFloor(3);
 
         // add 5 rooms to each floor
         HotelRoom newRoom0 = new HotelRoom(1);

@@ -3,7 +3,7 @@ import java.util.List;
 
 class HotelRoom implements HotelRoomInterface {
     private List<RoomCheckinObserver> checkinObservers = new ArrayList<RoomCheckinObserver>();
-    private int uniqueRoomNumber;
+    private final int uniqueRoomNumber;
 
     public HotelRoom(int uniqueRoomNumber) {
         this.uniqueRoomNumber = uniqueRoomNumber;
